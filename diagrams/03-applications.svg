@@ -205,12 +205,12 @@
 <rect x="1288" y="534" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
 <rect x="1288" y="534" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
 <text x="1317.7" y="547" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
-<rect x="1274" y="571" width="272" height="78" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="0.8"/>
-<text x="1288" y="595" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Autopsy</text>
-<text x="1288" y="614" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Digital forensics</text>
-<rect x="1288" y="623" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
-<rect x="1288" y="623" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
-<text x="1317.7" y="636" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="1274" y="571" width="272" height="78" rx="6" fill="#0E2A3B" stroke="#3FB950" stroke-width="1.5" opacity="1"/>
+<text x="1288" y="595" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Autopsy 4.23.1 + HxD</text>
+<text x="1288" y="614" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Forensics on FOR01</text>
+<rect x="1288" y="623" width="47.0" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="1288" y="623" width="47.0" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="1311.5" y="636" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">BUILT</text>
 <rect x="1274" y="660" width="272" height="78" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="0.8"/>
 <text x="1288" y="684" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">NetBox</text>
 <text x="1288" y="703" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Source of truth / IPAM</text>
@@ -241,12 +241,12 @@
 <path d="M1061 884 L1068 890 L1061 896 Z" fill="#75B6E7"/>
 <rect x="1068" y="845" width="200" height="90" rx="8" fill="#0E2A3B" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="1"/>
 <text x="1168" y="883" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle" letter-spacing="0" opacity="1">Investigate</text>
-<text x="1168" y="907" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="middle" letter-spacing="0" opacity="1">Wireshark, Autopsy</text>
+<text x="1168" y="907" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="middle" letter-spacing="0" opacity="1">Autopsy (built), Wireshark</text>
 <line x1="1273" y1="890" x2="1313" y2="890" stroke="#75B6E7" stroke-width="2"/>
 <path d="M1313 884 L1320 890 L1313 896 Z" fill="#75B6E7"/>
 <rect x="1320" y="845" width="200" height="90" rx="8" fill="#0E2A3B" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="1"/>
 <text x="1420" y="883" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle" letter-spacing="0" opacity="1">Respond</text>
 <text x="1420" y="907" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="middle" letter-spacing="0" opacity="1">Contain + document</text>
-<text x="800" y="975" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#75B6E7" font-weight="bold" text-anchor="middle" letter-spacing="0" opacity="1">12 applications built and working today  •  the rest are on the roadmap, each with its own Pending checklist</text>
+<text x="800" y="975" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#75B6E7" font-weight="bold" text-anchor="middle" letter-spacing="0" opacity="1">13 applications built and working today  •  the rest are on the roadmap, each with its own Pending checklist</text>
 <text x="800.0" y="1046" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E" font-weight="normal" text-anchor="middle" letter-spacing="0" opacity="1">Product names are trademarks of their owners; logos intentionally not used.  •  github.com/SAM857SAM/SAM.LAB</text>
 </svg>

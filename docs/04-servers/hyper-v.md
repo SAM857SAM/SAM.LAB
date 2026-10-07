@@ -1,7 +1,7 @@
 # Hyper-V Host — Step by Step
 
 **Goal:** One physical server that runs all the lab VMs.
-**Host:** WIN-LU49EQ719FL · Windows Server 2022 · i3-10105F · 24 GB RAM · IP 10.0.0.3
+**Host:** WIN-LU49EQ719FL · Windows Server 2022 · i3-10105F · 24 GB RAM · IP 10.0.0.103 (DHCP reservation)
 
 | Virtual switch | Type | Use |
 |---|---|---|
@@ -11,7 +11,8 @@
 | VM | Gen | RAM | Role |
 |---|---|---|---|
 | DC01 | 2 | 4096 MB | AD DS, DNS |
-| DHCP | 2 | VERIFY | Windows DHCP |
+| DHCP01 | 2 | VERIFY | Windows DHCP (10.0.0.20) |
+| FOR01 | 2 | 6 GB, 4 vCPU | Forensics — Autopsy 4.23.1 (10.0.0.12) |
 | DEPLOYWIN | 2 | 4096 MB | WDS / PXE |
 | DEMO01 | 2 | 6000 MB | Windows 11 test client |
 | CLIENT01 / CLIENT02 | 2 | 4096 MB | Windows 11 clients |
@@ -76,7 +77,7 @@ Get-VMNetworkAdapter -VMName * | Select VMName, SwitchName
 ```
 
 ## 📋 Pending (not built yet)
-- [ ] Set Hyper-V host to a static IP (10.0.0.3) — VERIFY
+- [ ] Set Hyper-V host to static IP 10.0.0.3 (now DHCP reservation 10.0.0.103)
 - [ ] VM checkpoints before big changes (naming standard)
 - [ ] VM backups (Windows Server Backup or Veeam Community)
 - [ ] Hyper-V Replica or export schedule

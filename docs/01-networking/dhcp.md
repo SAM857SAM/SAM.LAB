@@ -1,7 +1,7 @@
 # Windows DHCP Server — Step by Step
 
 **Goal:** One central DHCP server that gives clients the right IP, gateway, DNS, and domain.
-**Server:** `dhcp.sam.lab` (Windows Server 2022 VM, joined to `sam.lab`)
+**Server:** DHCP01 (`dhcp.sam.lab`) · 10.0.0.20 (Windows Server 2022 VM, joined to `sam.lab`)
 
 | Setting | Value |
 |---|---|
@@ -18,11 +18,11 @@
 ## Step 1 — Static IP on the DHCP server
 A DHCP server must never get its own address from DHCP.
 1. **Network Connections > Ethernet > Properties > IPv4**.
-2. IP `VERIFY` (screenshot shows 10.0.0.2), mask `255.255.255.0`, gateway `10.0.0.1`, DNS `10.0.0.4`.
+2. IP `10.0.0.20`, mask `255.255.255.0`, gateway `10.0.0.1`, DNS `10.0.0.4`.
 
 ![Static IP](../../screenshots/dhcp/01-static-ip.jpg)
 
-> ⚠ **Watch out:** The Netgear AP is also set to 10.0.0.2. Two devices with one IP = conflict. See Pending.
+> ⚠ **Watch out:** An early screenshot shows the server at 10.0.0.2, the same IP as the Netgear AP. Two devices with one IP = conflict. The server was moved to **10.0.0.20**.
 
 ## Step 2 — Install the role
 ```powershell
@@ -80,7 +80,6 @@ On the server: **Scope > Address Leases**.
 ![Leases](../../screenshots/dhcp/07-leases.jpg)
 
 ## 📋 Pending (not built yet)
-- [ ] **Confirm DHCP server IP** (10.0.0.2 vs .5 vs .20) and fix the conflict with the Netgear AP at 10.0.0.2
 - [ ] Rename server to `DHCP01` to match naming standard
 - [ ] DHCP reservations for printers / fixed clients
 - [ ] DHCP failover (second server, load balance)

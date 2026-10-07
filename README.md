@@ -27,7 +27,8 @@ Built by **Samual A. Michael** — CSCI student, studying for CCNA and CompTIA S
            │
   Netgear AP (switch mode) ── Hyper-V host
                                 ├─ DC01   (AD, DNS)
-                                ├─ DHCP   (Windows DHCP)
+                                ├─ DHCP01 (Windows DHCP)
+                                ├─ FOR01  (Autopsy forensics)
                                 ├─ DEPLOYWIN (WDS/PXE)
                                 ├─ WAC01  (Windows Admin Center)
                                 ├─ GUAC01 (Guacamole)
@@ -53,7 +54,8 @@ Built by **Samual A. Michael** — CSCI student, studying for CCNA and CompTIA S
 |---|---|---|---|
 | FW01 | 10.0.0.1 | pfSense 2.9.0 — firewall, NAT, DMZ, IPsec VPN | ✅ Built |
 | DC01 | 10.0.0.4 | AD DS, DNS, Group Policy (`sam.lab`) | ✅ Built |
-| DHCP | VERIFY | Windows DHCP, scope .100–.200 | ✅ Built |
+| DHCP01 | 10.0.0.20 | Windows DHCP, scope .100–.200 | ✅ Built |
+| FOR01 | 10.0.0.12 | Forensics VM — Autopsy 4.23.1, HxD | ✅ Built |
 | WAC01 | 10.0.0.7 | Windows Admin Center 2606 | ✅ Built |
 | DEMO01 | 10.0.0.9 | Windows 11 domain client | ✅ Built |
 | GUAC01 | 10.0.0.11 | Apache Guacamole 1.6.0 + Cloudflare Tunnel | ✅ Built |
@@ -84,17 +86,16 @@ Every guide ends with a **📋 Pending** checklist of what's not built yet.
 - [ ] **DMZ + WEB01 web server:** IIS, sample site, HTTPS, DMZ→LAN deny-all, LAN/VPN-only RDP
 - [ ] DEPLOYWIN: fix PXE BCD error 0xc000000f
 - [ ] GPO: fix wallpaper policy (Denied Security filtering)
-- [ ] Confirm DHCP server IP (conflict with AP at 10.0.0.2)
 - [ ] LAN move to 10.10.0.0/24
 - [ ] CM01 / SCCM
 - [ ] 50-policy AD security baseline (passwords, lockout, BitLocker, USB, auditing)
 - [ ] SOC: Sysmon, Wazuh, ELK, TheHive, Zabbix
-- [ ] Security tools: Kali, OpenVAS, Suricata, Autopsy
+- [ ] Security tools: Kali, OpenVAS, Suricata
 - [ ] RODC, FILE01 shares, ownCloud, NetBox
 
 ## Skills shown
 
-Windows Server 2022 · Hyper-V · Active Directory · DNS · DHCP · Group Policy · WDS/PXE · pfSense · NAT · DMZ segmentation · IKEv2/IPsec VPN · PKI (internal CA) · Zero-trust remote access (Cloudflare Tunnel + Access) · Linux (Ubuntu, LVM, building from source) · Tomcat / MariaDB · Troubleshooting & documentation
+Windows Server 2022 · Hyper-V · Digital forensics (Autopsy) · Active Directory · DNS · DHCP · Group Policy · WDS/PXE · pfSense · NAT · DMZ segmentation · IKEv2/IPsec VPN · PKI (internal CA) · Zero-trust remote access (Cloudflare Tunnel + Access) · Linux (Ubuntu, LVM, building from source) · Tomcat / MariaDB · Troubleshooting & documentation
 
 ## Certifications
 
