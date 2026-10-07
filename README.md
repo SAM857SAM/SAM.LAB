@@ -1,7 +1,7 @@
 # SAM.LAB — Enterprise Home Lab
 
 A small-enterprise network I built at home to practice real IT, networking, security, and forensics work.
-Built by **Samual A. Michael** — CSCI student, studying for CCNA and CompTIA Security+.
+Built by **Samual A. Michael** — IT Help Desk Support, Cybersecurity & Network Engineering student (Saint Paul College), working toward **Cloud Security Engineer**.
 
 > Sensitive values (public IP, external hostnames, VPN usernames, passwords, keys, MAC addresses) are replaced with `[CONFIDENTIAL]` or blurred. Screenshots that showed passwords are not published.
 
@@ -91,8 +91,20 @@ Windows Server 2022 · Hyper-V · Active Directory · DNS · DHCP · Group Polic
 
 ## Certifications
 
-| Certification | Status |
+<p>
+<a href="https://www.credly.com/badges/74512d2c-2295-42d0-89b9-6c6a829872ae/public_url"><img src="badges/ccst-cybersecurity.png" width="90" alt="Cisco CCST Cybersecurity"></a>
+<a href="https://www.credly.com/badges/85aa9d6a-fcfb-477a-999f-25d93e9adc7e/public_url"><img src="badges/ccst-networking.png" width="90" alt="Cisco CCST Networking"></a>
+<a href="https://www.credly.com/badges/cb02c7fd-f2e4-4b6b-af3c-797d9eb3feb2/public_url"><img src="badges/ccst-it-support.png" width="90" alt="Cisco CCST IT Support"></a>
+<a href="https://www.credly.com/badges/49d84934-568a-4391-a0a4-4d6a242b43a4/public_url"><img src="badges/nsst.png" width="90" alt="Network Security Support Technician"></a>
+<a href="https://www.credly.com/badges/96b7f821-5d16-47d7-bcfc-77b883a31ded/public_url"><img src="badges/isc2-candidate.png" width="90" alt="ISC2 Candidate"></a>
+</p>
+
+| Certification | Proven in this lab |
 |---|---|
-| Cisco CCST (Networking / Cybersecurity — to confirm) | ✅ Earned |
-| CCNA 200-301 | 📘 In progress |
-| CompTIA Security+ | 🎯 Planned |
+| Cisco CCST Networking ✅ | [pfSense](docs/01-networking/pfsense.md), [DHCP](docs/01-networking/dhcp.md), subnets, NAT |
+| Cisco CCST Cybersecurity ✅ | [IPsec VPN](docs/01-networking/ipsec-vpn.md), [DMZ](docs/01-networking/dmz-web01.md), [forensics](docs/05-security-soc/for01-autopsy.md) |
+| Cisco CCST IT Support ✅ | [Active Directory](docs/02-active-directory/dc01-active-directory.md), [GPO](docs/02-active-directory/group-policy.md), troubleshooting |
+| CCNA 200-301 📘 Studying | Routing, VPN, firewall rules |
+| Security+ / AWS 🎯 Next | Toward **Cloud Security Engineer** |
+
+All badges verify on Credly — click them. Full profile: **[github.com/SAM857SAM](https://github.com/SAM857SAM)** • **[samyord.com](https://samyord.com)**
