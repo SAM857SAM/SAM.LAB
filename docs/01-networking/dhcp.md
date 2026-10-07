@@ -1,7 +1,8 @@
 # Windows DHCP Server — Step by Step
 
 **Goal:** One central DHCP server that gives clients the right IP, gateway, DNS, and domain.
-**Server:** DHCP01 (`dhcp.sam.lab`) · 10.0.0.20 (Windows Server 2022 VM, joined to `sam.lab`)
+**Status:** ✅ Built
+**Server:** DHCP01 — Hyper-V VM named `DHCP`, hostname `dhcp.sam.lab` · **10.0.0.20** · Windows Server 2022, joined to `sam.lab`
 
 | Setting | Value |
 |---|---|
@@ -54,11 +55,11 @@ Why: Only authorized DHCP servers can hand out leases in a domain. This stops ro
 ![Scope options](../../screenshots/dhcp/05-scope-options.jpg)
 
 ## Step 6 — PXE options (for WDS)
-1. **Scope Options > Configure Options**: check **066 Boot Server Host Name** = `10.0.0.15` and **067 Bootfile Name** = `VERIFY`.
+1. **Scope Options > Configure Options**: **066 Boot Server Host Name** = `10.0.0.15`, **067 Bootfile Name** = boot file path.
 
 ![PXE options](../../screenshots/dhcp/06-pxe-options.jpg)
 
-> 💡 For UEFI clients, the boot file is usually `boot\x64\wdsmgfw.efi`. Microsoft recommends using IP Helpers / WDS on the same subnet instead of 066/067 when possible.
+> ⚠ **Heads-up:** Microsoft does **not** recommend 066/067 when WDS is on the same subnet as the clients — WDS answers PXE itself. These options are the #1 suspect in the open PXE error, see [PXE troubleshooting](../07-troubleshooting/pxe-boot.md).
 
 ## Step 7 — Turn off other DHCP servers
 - pfSense: **Services > DHCP Server > LAN** → unchecked (see [pfSense guide](pfsense.md)).
@@ -80,9 +81,10 @@ On the server: **Scope > Address Leases**.
 ![Leases](../../screenshots/dhcp/07-leases.jpg)
 
 ## 📋 Pending (not built yet)
-- [ ] Rename server to `DHCP01` to match naming standard
+- [ ] Rename the VM/host to `DHCP01` to match the naming standard
+- [ ] Reservation for GUAC01 (10.0.0.11) — it still uses DHCP
 - [ ] DHCP reservations for printers / fixed clients
 - [ ] DHCP failover (second server, load balance)
-- [ ] Fix PXE options (see WDS guide — BCD 0xc000000f)
+- [ ] Remove options 066/067 (PXE fix test)
 - [ ] DHCP audit logs to SIEM
 - [ ] Update scope after LAN move to 10.10.0.0/24

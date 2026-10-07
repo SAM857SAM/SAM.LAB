@@ -18,7 +18,7 @@ Internet ──► pfSense WAN ──► (443 only, later) ──► WEB01 10.0.
 ---
 
 ## ✅ Done
-1. pfSense `OPT1 (re0)` enabled as **DMZ**, static `10.0.10.1/24` — see [pfSense guide](pfsense.md#step-7--set-up-the-dmz).
+1. pfSense `OPT1 (re0)` enabled as **DMZ**, static `10.0.10.1/24` — see [pfSense guide](pfsense.md).
 2. WEB01 installed with Windows Server 2022 and cabled straight to the DMZ port.
 3. WEB01 IP `10.0.10.10/24`, gateway `10.0.10.1`.
 4. Firewall rules (DMZ tab):

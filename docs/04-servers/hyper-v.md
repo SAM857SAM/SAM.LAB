@@ -1,7 +1,9 @@
 # Hyper-V Host — Step by Step
 
 **Goal:** One physical server that runs all the lab VMs.
-**Host:** WIN-LU49EQ719FL · Windows Server 2022 · i3-10105F · 24 GB RAM · IP 10.0.0.103 (DHCP reservation)
+**Status:** ✅ Built
+**Host:** WIN-LU49EQ719FL · Windows Server 2022 · i3-10105F · 24 GB RAM · single C: 476 GB · **workgroup** (not domain-joined)
+**IP:** 10.0.0.103 (DHCP reservation on DHCP01; target static 10.0.0.3) · RDP allowed **only from the VPN pool**
 
 | Virtual switch | Type | Use |
 |---|---|---|
@@ -11,14 +13,41 @@
 | VM | Gen | RAM | Role |
 |---|---|---|---|
 | DC01 | 2 | 4096 MB | AD DS, DNS |
-| DHCP01 | 2 | VERIFY | Windows DHCP (10.0.0.20) |
-| FOR01 | 2 | 6 GB, 4 vCPU | Forensics — Autopsy 4.23.1 (10.0.0.12) |
+| DHCP (DHCP01) | 2 | dynamic | Windows DHCP (10.0.0.20) |
+| FOR01 | 2 | 6 GB fixed, 4 vCPU | Forensics — Autopsy 4.23.1 (10.0.0.12) |
 | DEPLOYWIN | 2 | 4096 MB | WDS / PXE |
 | DEMO01 | 2 | 6000 MB | Windows 11 test client |
 | CLIENT01 / CLIENT02 | 2 | 4096 MB | Windows 11 clients |
 | Guac01 | 2 | 2048 MB, 2 vCPU | Ubuntu, Apache Guacamole |
 
 ---
+
+## Step 0 — Find and reserve the host IP
+> ⚠ **Error:** `ping 10.0.0.3` → *Destination host unreachable*. The host had moved to a DHCP address.
+
+![Host unreachable](../../screenshots/autopsy/err-host-unreachable.jpg)
+
+**Fix:** Find it in the DHCP leases on DHCP01, then reserve it so it never changes:
+```powershell
+Get-DhcpServerv4Lease -ScopeId 10.0.0.0 | Select IPAddress, ClientId, HostName
+Add-DhcpServerv4Reservation -ScopeId 10.0.0.0 -IPAddress 10.0.0.103 -ClientId "[HOST MAC]" -Name "WIN-LU49EQ719FL"
+```
+
+## Step 0b — Remote PowerShell to a workgroup host
+> ⚠ **Error:** `Enter-PSSession` → *Kerberos … cannot find the computer*. The host isn't in AD/DNS.
+
+**Fix:** Trust only the host's IP and use its local admin:
+```powershell
+Set-Item WSMan:\localhost\Client\TrustedHosts -Value "10.0.0.103" -Concatenate -Force
+Enter-PSSession -ComputerName 10.0.0.103 -Credential WIN-LU49EQ719FL\Administrator
+```
+
+![TrustedHosts](../../screenshots/autopsy/01-trustedhosts-pssession.jpg)
+
+> ⚠ **Error:** `Stop-VM CLIENT01` → *machine is locked and cannot be shut down without the force option*.
+> **Fix:** `Stop-VM -Name CLIENT01 -Force` (clean shutdown). Avoid `-TurnOff`.
+
+![Stop-VM](../../screenshots/autopsy/err-stop-vm.jpg)
 
 ## Step 1 — Install Hyper-V
 ```powershell
@@ -79,8 +108,10 @@ Get-VMNetworkAdapter -VMName * | Select VMName, SwitchName
 ## 📋 Pending (not built yet)
 - [ ] Set Hyper-V host to static IP 10.0.0.3 (now DHCP reservation 10.0.0.103)
 - [ ] VM checkpoints before big changes (naming standard)
+- [ ] Add a separate data SSD — all VMs share the host C: drive (slow)
 - [ ] VM backups (Windows Server Backup or Veeam Community)
 - [ ] Hyper-V Replica or export schedule
 - [ ] New VMs: CM01 (SCCM), SIEM01 (Wazuh), MON01 (Zabbix), KALI01
 - [ ] Separate VLAN / vSwitch for Kali test segment
 - [ ] Remove Tailscale now that IPsec VPN works
+- [ ] Replace evaluation license

@@ -81,10 +81,10 @@
 <rect x="426" y="513" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
 <text x="455.7" y="526" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
 <text x="426" y="551" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">BitLocker</text>
-<text x="426" y="570" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Encrypt supported devices</text>
-<rect x="426" y="577" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
-<rect x="426" y="577" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
-<text x="455.7" y="590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="426" y="570" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">FOR01 encrypting; GPO next</text>
+<rect x="426" y="577" width="59.4" height="18" rx="9" fill="#F0883E" stroke="#F0883E" stroke-width="1" opacity="0.18"/>
+<rect x="426" y="577" width="59.4" height="18" rx="9" fill="none" stroke="#F0883E" stroke-width="1" opacity="1"/>
+<text x="455.7" y="590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#F0883E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PARTIAL</text>
 <rect x="790" y="155" width="362" height="455" rx="8" fill="#091F2C" stroke="#404040" stroke-width="1" opacity="1"/>
 <rect x="790" y="155" width="362" height="44" rx="8" fill="#A371F7" stroke="#A371F7" stroke-width="0" opacity="0.25"/>
 <rect x="790" y="155" width="362" height="4" rx="2" fill="#A371F7" stroke="#A371F7" stroke-width="0" opacity="1"/>
@@ -167,8 +167,8 @@
 <rect x="46" y="796" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
 <rect x="46" y="796" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
 <text x="75.7" y="809" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
-<text x="46" y="834" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">No public RDP</text>
-<text x="46" y="853" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">RDP only via LAN / VPN / Guacamole</text>
+<text x="46" y="834" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">RDP scoped to LAN + VPN</text>
+<text x="46" y="853" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Firewall rules, NLA on</text>
 <rect x="46" y="860" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
 <rect x="46" y="860" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
 <text x="75.7" y="873" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
@@ -191,8 +191,8 @@
 <rect x="410" y="630" width="362" height="44" rx="8" fill="#39C5CF" stroke="#39C5CF" stroke-width="0" opacity="0.25"/>
 <rect x="410" y="630" width="362" height="4" rx="2" fill="#39C5CF" stroke="#39C5CF" stroke-width="0" opacity="1"/>
 <text x="426" y="659" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0.5" opacity="1">6. DATA PROTECTION</text>
-<text x="426" y="706" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Read-only shares</text>
-<text x="426" y="725" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Wallpaper share: Everyone Read</text>
+<text x="426" y="706" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Evidence isolation</text>
+<text x="426" y="725" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">FOR01 not domain-joined</text>
 <rect x="426" y="732" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
 <rect x="426" y="732" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
 <text x="455.7" y="745" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
@@ -284,10 +284,10 @@
 <rect x="1186" y="988" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
 <rect x="1186" y="988" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
 <text x="1215.7" y="1001" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
-<text x="1186" y="1026" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Compliance review</text>
-<text x="1186" y="1045" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">RSOP / gpresult reports</text>
-<rect x="1186" y="1052" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
-<rect x="1186" y="1052" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
-<text x="1215.7" y="1065" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
-<text x="800.0" y="1106" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E" font-weight="normal" text-anchor="middle" letter-spacing="0" opacity="1">19 of 48 controls applied today  •  Remaining items are tracked as Pending checklists in each guide  •  github.com/SAM857SAM/SAM.LAB</text>
+<text x="1186" y="1026" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Verified installers</text>
+<text x="1186" y="1045" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">SHA256 hash before install</text>
+<rect x="1186" y="1052" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="1186" y="1052" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="1215.7" y="1065" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<text x="800.0" y="1106" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E" font-weight="normal" text-anchor="middle" letter-spacing="0" opacity="1">20 of 48 controls applied today  •  Remaining items are tracked as Pending checklists in each guide  •  github.com/SAM857SAM/SAM.LAB</text>
 </svg>

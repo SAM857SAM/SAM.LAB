@@ -1,5 +1,7 @@
 # Cloudflare Tunnel + Access — Step by Step
 
+**Status:** ✅ Built
+
 **Goal:** Reach Guacamole (browser-based remote desktop) from anywhere, **without opening any port** on the firewall.
 **Tunnel:** `SAMLAB-Remote-Desktop` · runs `cloudflared` on GUAC01 · route `[CONFIDENTIAL REMOTE HOSTNAME]` → `http://localhost:8080`
 
@@ -46,7 +48,7 @@ systemctl status cloudflared
 ```
 
 ## 📋 Pending (not built yet)
-- [ ] Access policy: email allow-list + MFA (One-time PIN or IdP)
+- [ ] **Tighten the Access policy** — it currently allows *All authenticated users*; change to an email allow-list + MFA
 - [ ] Only allow your country, block others
 - [ ] Turn on Access audit logs, review weekly
 - [ ] Remove Tailscale now that Tunnel + IPsec work

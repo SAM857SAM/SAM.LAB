@@ -1,11 +1,12 @@
 # Group Policy (GPO) — Step by Step
 
 **Goal:** Lock down standard users and push a company wallpaper, managed from DC01.
+**Status:** 🟠 Part A working · Part B open
 
 | GPO | Linked to | Status |
 |---|---|---|
 | GPO-General-User-Restrictions | SAMLAB > Users > General User | ✅ Working |
-| GG_wallpaper1 (wallpaper) | SAMLAB > Users | 🔴 Not applying — see Pending |
+| GG_wallpaper1 (wallpaper) | SAMLAB > Users | 🔴 Not applying — see [troubleshooting](../07-troubleshooting/wallpaper-gpo.md) |
 
 ---
 
@@ -68,10 +69,12 @@ Check from a client: open `\\dc01\Wallpapers`.
 
 ### Step 2 — Wallpaper GPO
 1. User Configuration > Policies > Administrative Templates > Desktop > Desktop > **Desktop Wallpaper** = Enabled.
-2. Wallpaper name `\\DC01\Wallpapers\SAMLAB.png`, style **Fill**.
+2. Wallpaper name **`\\DC01\Wallpapers\SAMLAB.png`** (must match the share name), style **Fill**.
 3. Also enable **Prevent changing desktop background** (Control Panel > Personalization).
 
 ![Wallpaper setting](../../screenshots/gpo/08-wallpaper-setting.jpg)
+
+> ⚠ **Mistake found:** the GPO was saved with `\\DC01\SAMLAB\Wallpapers\SAMLAB.png`, but the share is `\\DC01\Wallpapers`. Fix the path to `\\DC01\Wallpapers\SAMLAB.png`.
 
 ### Step 3 — Target one group (GG_wallpaper1)
 1. Add user `samlab01` to group `GG_wallpaper1`.
@@ -90,21 +93,23 @@ Check from a client: open `\\dc01\Wallpapers`.
 
 ![Denied security](../../screenshots/gpo/err-denied-security.jpg)
 
-**Look closely:** the user's group list does **not** show `GG_wallpaper1`. Two likely causes:
-1. The user's sign-in token is old. Group changes only apply after **sign out / sign in** (or a restart).
-2. Since Microsoft update MS16-072, the **computer** account must be able to read the GPO. Removing **Authenticated Users** from Security Filtering breaks this. Fix: keep `GG_wallpaper1` in **Security Filtering** (Read + Apply), and on the **Delegation** tab add **Domain Computers** with **Read**.
+**Look closely:** the user's group list does **not** show `GG_wallpaper1`, and on the Delegation tab the group only has **Read** (no Apply). Fix plan (in order):
+1. **Sign out / sign in** as samlab01 — group changes only reach the logon token at sign-in.
+2. Give the group **Apply**: Scope > Security Filtering > add `GG_wallpaper1` (or `Set-GPPermission -Name GG_wallpaper1 -TargetName GG_wallpaper1 -TargetType Group -PermissionLevel GpoApply`).
+3. Keep **Read** for Authenticated Users or Domain Computers (required since MS16-072).
+4. Fix the UNC path (above).
 
-Then sign out/in as samlab01 and run `gpresult /r` again.
+Full plan: [Wallpaper GPO troubleshooting](../07-troubleshooting/wallpaper-gpo.md).
 
 ---
 
 ## 📋 Pending (not built yet)
-- [ ] Fix GG_wallpaper1 filtering (sign out/in + Domain Computers Read) and confirm with `gpresult /h report.html`
+- [ ] Fix GG_wallpaper1 (fresh logon, GpoApply, UNC path) and confirm with `gpresult /h report.html`
 - [ ] Decide one wallpaper GPO name (`GPO-SAMLAB-Wallpaper` vs `SAMLAB Rule` vs `GG_wallpaper1`) and remove duplicates
 - [ ] Password policy: 14 chars, complexity, history 24
 - [ ] Account lockout: 5 attempts, 15 min
 - [ ] Screen lock after 15 min, logon banner
-- [ ] BitLocker GPO
+- [ ] BitLocker GPO (FOR01 already encrypting by hand)
 - [ ] USB / removable storage block
 - [ ] Advanced audit policy + PowerShell logging (for SIEM)
 - [ ] Windows Firewall + Defender GPOs

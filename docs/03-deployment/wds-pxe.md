@@ -92,21 +92,24 @@ Client reaches **Windows Boot Manager (Server IP: 10.0.0.15)**, then: *File: \Bo
 
 ![BCD error](../../screenshots/wds/err-bcd.jpg)
 
-Things to try next (one at a time):
-1. Remove DHCP options **066/067** and let WDS answer PXE directly (same subnet).
-2. Rebuild the BCD:
-```cmd
-wdsutil /set-server /BcdRefreshPolicy /Enabled:Yes /RefreshPeriod:1
+Most likely causes (ranked):
+1. **DHCP options 066/067** point clients at the wrong boot file. WDS is on the same subnet, so these options aren't needed.
+2. **Stock `boot.wim` from the Windows 11 ISO** — Microsoft blocks install-media boot images in WDS for Windows 11. Use a custom boot image (Windows ADK WinPE) instead.
+3. UEFI vs BIOS boot-file mismatch.
+
+First test:
+```powershell
+Get-DhcpServerv4OptionValue -ScopeId 10.0.0.0 -All
+Remove-DhcpServerv4OptionValue -ScopeId 10.0.0.0 -OptionId 66,67
 ```
-3. Remove and re-add the boot image, then restart WDS.
-4. Set TFTP **Maximum block size** to `1456` and turn off variable window extension (WDS > Properties > TFTP).
+Full plan: [PXE troubleshooting](../07-troubleshooting/pxe-boot.md).
 
 > ℹ **Note:** Microsoft has retired **MDT** (no updates or fixes). Plan to use WDS + Configuration Manager (SCCM) or Autopilot instead.
 
 ![MDT retired](../../screenshots/wds/mdt-retired.jpg)
 
 ## 📋 Pending (not built yet)
-- [ ] Fix BCD 0xc000000f and boot WinPE on a physical client
+- [ ] Fix BCD 0xc000000f (remove 066/067, custom WinPE boot image) and boot WinPE
 - [ ] Add install image (Windows 11 25H2) and deploy one PC end-to-end
 - [ ] Unattend file: auto domain join to `sam.lab`, correct OU
 - [ ] Re-enable Windows Firewall on DEPLOYWIN with WDS rules

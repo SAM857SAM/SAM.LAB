@@ -1,6 +1,7 @@
 # GUAC01 — Apache Guacamole (Remote Desktop in a Browser) — Step by Step
 
 **Goal:** Open an RDP session to lab PCs from any web browser.
+**Status:** ✅ Built
 **Server:** GUAC01 (`guca01`) · Ubuntu 26.04 LTS · Hyper-V Gen 2, 2 vCPU, 2 GB · IP 10.0.0.11
 **Stack:** guacd 1.6.0 (built from source) · Tomcat 10 · MariaDB 11.8 · guacamole-auth-jdbc-mysql 1.6.0
 

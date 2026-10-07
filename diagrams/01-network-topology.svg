@@ -124,23 +124,35 @@
 <rect x="56" y="864" width="47.0" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
 <text x="79.5" y="877" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">BUILT</text>
 <g transform="translate(214,780) scale(1.03125)" opacity="1"><rect x="12" y="10" width="40" height="28" rx="2" fill="#1C252E" stroke="#8FA3B5" stroke-width="2"/><rect x="16" y="14" width="32" height="20" fill="#2F81F7" opacity="0.6"/><path d="M4 44 L60 44 L54 52 L10 52 Z" fill="#3A4652" stroke="#8FA3B5" stroke-width="2"/></g>
-<rect x="40" y="910" width="250" height="120" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.75"/>
-<rect x="40" y="910" width="5" height="120" rx="2" fill="#8B949E" stroke="#8B949E" stroke-width="0" opacity="0.75"/>
-<text x="56" y="934" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="0.75">FILE01</text>
-<text x="278" y="1018" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#D2D2D2" font-weight="bold" text-anchor="end" letter-spacing="1" opacity="0.75">PHYSICAL</text>
-<text x="56" y="954" font-family="Consolas, Menlo, monospace" font-size="13" fill="#75B6E7" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="0.75">10.0.0.10</text>
-<text x="56" y="974" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="0.75">File server, SMB</text>
-<text x="56" y="991" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="0.75">Backups target</text>
-<rect x="56" y="1004" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
-<rect x="56" y="1004" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
-<text x="85.7" y="1017" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
-<g transform="translate(210,920) scale(1.09375)" opacity="0.75"><rect x="16" y="4" width="32" height="56" rx="3" fill="#3A4652" stroke="#8FA3B5" stroke-width="2"/><rect x="21" y="10" width="22" height="5" rx="1" fill="#1C252E"/><rect x="21" y="18" width="22" height="5" rx="1" fill="#1C252E"/><rect x="21" y="26" width="22" height="5" rx="1" fill="#1C252E"/><circle cx="25" cy="50" r="2.5" fill="#3FB950"/><circle cx="32" cy="50" r="2.5" fill="#2F81F7"/><line x1="21" y1="40" x2="43" y2="40" stroke="#5B6B7A" stroke-width="1.5"/></g>
+<rect x="40" y="910" width="250" height="120" rx="6" fill="#091F2C" stroke="#F0883E" stroke-width="2" opacity="1"/>
+<rect x="40" y="910" width="5" height="120" rx="2" fill="#F0883E" stroke="#F0883E" stroke-width="0" opacity="1"/>
+<text x="56" y="934" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">FILE01</text>
+<text x="278" y="1018" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#D2D2D2" font-weight="bold" text-anchor="end" letter-spacing="1" opacity="1">PHYSICAL</text>
+<text x="56" y="954" font-family="Consolas, Menlo, monospace" font-size="13" fill="#75B6E7" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">10.0.0.10</text>
+<text x="56" y="974" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">File server (OS/IP</text>
+<text x="56" y="991" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">to verify)</text>
+<rect x="56" y="1004" width="84.2" height="18" rx="9" fill="#F0883E" stroke="#F0883E" stroke-width="1" opacity="0.18"/>
+<rect x="56" y="1004" width="84.2" height="18" rx="9" fill="none" stroke="#F0883E" stroke-width="1" opacity="1"/>
+<text x="98.1" y="1017" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#F0883E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">IN PROGRESS</text>
+<g transform="translate(210,920) scale(1.09375)" opacity="1"><rect x="16" y="4" width="32" height="56" rx="3" fill="#3A4652" stroke="#8FA3B5" stroke-width="2"/><rect x="21" y="10" width="22" height="5" rx="1" fill="#1C252E"/><rect x="21" y="18" width="22" height="5" rx="1" fill="#1C252E"/><rect x="21" y="26" width="22" height="5" rx="1" fill="#1C252E"/><circle cx="25" cy="50" r="2.5" fill="#3FB950"/><circle cx="32" cy="50" r="2.5" fill="#2F81F7"/><line x1="21" y1="40" x2="43" y2="40" stroke="#5B6B7A" stroke-width="1.5"/></g>
+<rect x="40" y="1050" width="250" height="120" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.75"/>
+<rect x="40" y="1050" width="5" height="120" rx="2" fill="#8B949E" stroke="#8B949E" stroke-width="0" opacity="0.75"/>
+<text x="56" y="1074" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="0.75">CLIENT03 / 04</text>
+<text x="278" y="1158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#D2D2D2" font-weight="bold" text-anchor="end" letter-spacing="1" opacity="0.75">PHYSICAL</text>
+<text x="56" y="1094" font-family="Consolas, Menlo, monospace" font-size="13" fill="#75B6E7" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="0.75">TBD</text>
+<text x="56" y="1114" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="0.75">Laptops to join</text>
+<text x="56" y="1131" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="0.75">sam.lab</text>
+<rect x="56" y="1144" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="56" y="1144" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="85.7" y="1157" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<g transform="translate(214,1060) scale(1.03125)" opacity="0.75"><rect x="12" y="10" width="40" height="28" rx="2" fill="#1C252E" stroke="#8FA3B5" stroke-width="2"/><rect x="16" y="14" width="32" height="20" fill="#2F81F7" opacity="0.6"/><path d="M4 44 L60 44 L54 52 L10 52 Z" fill="#3A4652" stroke="#8FA3B5" stroke-width="2"/></g>
 <line x1="30" y1="690" x2="40" y2="690" stroke="#5A6B7A" stroke-width="2"/>
 <line x1="30" y1="830" x2="40" y2="830" stroke="#5A6B7A" stroke-width="2"/>
 <line x1="30" y1="970" x2="40" y2="970" stroke="#5A6B7A" stroke-width="2"/>
-<line x1="30" y1="600" x2="30" y2="970" stroke="#5A6B7A" stroke-width="2"/>
+<line x1="30" y1="1110" x2="40" y2="1110" stroke="#5A6B7A" stroke-width="2"/>
+<line x1="30" y1="600" x2="30" y2="1110" stroke="#5A6B7A" stroke-width="2"/>
 <rect x="320" y="625" width="1240" height="640" rx="10" fill="#15202B" stroke="#2F81F7" stroke-width="1.5" opacity="1"/>
-<text x="340" y="652" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#75B6E7" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">HYPER-V HOST  •  Windows Server 2022  •  10.0.0.103 (reserved)  •  i3-10105F / 24 GB RAM  •  vSwitch LAB-LAN-EX (external)</text>
+<text x="340" y="652" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#75B6E7" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">HYPER-V HOST  •  Windows Server 2022  •  WIN-LU49EQ719FL  •  10.0.0.103 (reserved)  •  workgroup  •  i3-10105F / 24 GB  •  vSwitch LAB-LAN-EX</text>
 <line x1="940" y1="600" x2="940" y2="625" stroke="#75B6E7" stroke-width="3"/>
 <rect x="340" y="670" width="285" height="130" rx="6" fill="#091F2C" stroke="#3FB950" stroke-width="2" opacity="1"/>
 <rect x="340" y="670" width="5" height="130" rx="2" fill="#3FB950" stroke="#3FB950" stroke-width="0" opacity="1"/>
@@ -158,8 +170,8 @@
 <text x="658" y="694" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">DHCP01</text>
 <text x="915" y="788" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#D2D2D2" font-weight="bold" text-anchor="end" letter-spacing="1" opacity="1">VM</text>
 <text x="658" y="714" font-family="Consolas, Menlo, monospace" font-size="13" fill="#75B6E7" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">10.0.0.20</text>
-<text x="658" y="734" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Windows DHCP</text>
-<text x="658" y="751" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Authorized in AD</text>
+<text x="658" y="734" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Windows DHCP (VM DHCP)</text>
+<text x="658" y="751" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Scope .100–.200</text>
 <rect x="658" y="774" width="47.0" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
 <rect x="658" y="774" width="47.0" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
 <text x="681.5" y="787" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">BUILT</text>
@@ -219,28 +231,28 @@
 <rect x="960" y="919" width="84.2" height="18" rx="9" fill="none" stroke="#F0883E" stroke-width="1" opacity="1"/>
 <text x="1002.1" y="932" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#F0883E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">IN PROGRESS</text>
 <g transform="translate(1139,825) scale(1.25)" opacity="1"><rect x="6" y="6" width="52" height="36" rx="3" fill="#1C252E" stroke="#8FA3B5" stroke-width="2"/><rect x="10" y="10" width="44" height="28" fill="#2F81F7" opacity="0.6"/><rect x="28" y="42" width="8" height="8" fill="#8FA3B5"/><rect x="18" y="50" width="28" height="4" rx="2" fill="#8FA3B5"/></g>
-<rect x="1246" y="815" width="285" height="130" rx="6" fill="#091F2C" stroke="#3FB950" stroke-width="2" opacity="1"/>
-<rect x="1246" y="815" width="5" height="130" rx="2" fill="#3FB950" stroke="#3FB950" stroke-width="0" opacity="1"/>
+<rect x="1246" y="815" width="285" height="130" rx="6" fill="#091F2C" stroke="#F0883E" stroke-width="2" opacity="1"/>
+<rect x="1246" y="815" width="5" height="130" rx="2" fill="#F0883E" stroke="#F0883E" stroke-width="0" opacity="1"/>
 <text x="1262" y="839" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">FOR01</text>
 <text x="1519" y="933" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#D2D2D2" font-weight="bold" text-anchor="end" letter-spacing="1" opacity="1">VM</text>
 <text x="1262" y="859" font-family="Consolas, Menlo, monospace" font-size="13" fill="#75B6E7" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">10.0.0.12</text>
-<text x="1262" y="879" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Win11 forensics VM</text>
-<text x="1262" y="896" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Autopsy 4.23.1 • HxD</text>
-<rect x="1262" y="919" width="47.0" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
-<rect x="1262" y="919" width="47.0" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
-<text x="1285.5" y="932" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">BUILT</text>
+<text x="1262" y="879" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Forensics • Autopsy 4.23.1</text>
+<text x="1262" y="896" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Isolation + BitLocker next</text>
+<rect x="1262" y="919" width="84.2" height="18" rx="9" fill="#F0883E" stroke="#F0883E" stroke-width="1" opacity="0.18"/>
+<rect x="1262" y="919" width="84.2" height="18" rx="9" fill="none" stroke="#F0883E" stroke-width="1" opacity="1"/>
+<text x="1304.1" y="932" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#F0883E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">IN PROGRESS</text>
 <g transform="translate(1441,825) scale(1.25)" opacity="1"><rect x="16" y="4" width="32" height="56" rx="3" fill="#2B4A66" stroke="#75B6E7" stroke-width="2" stroke-dasharray="4 2"/><rect x="21" y="10" width="22" height="5" rx="1" fill="#16283A"/><rect x="21" y="18" width="22" height="5" rx="1" fill="#16283A"/><rect x="21" y="26" width="22" height="5" rx="1" fill="#16283A"/><circle cx="25" cy="50" r="2.5" fill="#3FB950"/><rect x="30" y="42" width="22" height="14" rx="3" fill="#0064B5"/><text x="41" y="53" font-family="Segoe UI,Arial" font-size="10" font-weight="bold" fill="#fff" text-anchor="middle">VM</text></g>
-<rect x="340" y="960" width="285" height="130" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.75"/>
-<rect x="340" y="960" width="5" height="130" rx="2" fill="#8B949E" stroke="#8B949E" stroke-width="0" opacity="0.75"/>
-<text x="356" y="984" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="0.75">CM01</text>
-<text x="613" y="1078" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#D2D2D2" font-weight="bold" text-anchor="end" letter-spacing="1" opacity="0.75">VM</text>
-<text x="356" y="1004" font-family="Consolas, Menlo, monospace" font-size="13" fill="#75B6E7" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="0.75">10.0.0.6</text>
-<text x="356" y="1024" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="0.75">Configuration Manager</text>
-<text x="356" y="1041" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="0.75">OSD • apps • patching</text>
-<rect x="356" y="1064" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
-<rect x="356" y="1064" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
-<text x="385.7" y="1077" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
-<g transform="translate(535,970) scale(1.25)" opacity="0.75"><rect x="16" y="4" width="32" height="56" rx="3" fill="#2B4A66" stroke="#75B6E7" stroke-width="2" stroke-dasharray="4 2"/><rect x="21" y="10" width="22" height="5" rx="1" fill="#16283A"/><rect x="21" y="18" width="22" height="5" rx="1" fill="#16283A"/><rect x="21" y="26" width="22" height="5" rx="1" fill="#16283A"/><circle cx="25" cy="50" r="2.5" fill="#3FB950"/><rect x="30" y="42" width="22" height="14" rx="3" fill="#0064B5"/><text x="41" y="53" font-family="Segoe UI,Arial" font-size="10" font-weight="bold" fill="#fff" text-anchor="middle">VM</text></g>
+<rect x="340" y="960" width="285" height="130" rx="6" fill="#091F2C" stroke="#F0883E" stroke-width="2" opacity="1"/>
+<rect x="340" y="960" width="5" height="130" rx="2" fill="#F0883E" stroke="#F0883E" stroke-width="0" opacity="1"/>
+<text x="356" y="984" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">CM01</text>
+<text x="613" y="1078" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#D2D2D2" font-weight="bold" text-anchor="end" letter-spacing="1" opacity="1">VM</text>
+<text x="356" y="1004" font-family="Consolas, Menlo, monospace" font-size="13" fill="#75B6E7" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">10.0.0.6 (design)</text>
+<text x="356" y="1024" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Configuration Manager</text>
+<text x="356" y="1041" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Install not confirmed</text>
+<rect x="356" y="1064" width="84.2" height="18" rx="9" fill="#F0883E" stroke="#F0883E" stroke-width="1" opacity="0.18"/>
+<rect x="356" y="1064" width="84.2" height="18" rx="9" fill="none" stroke="#F0883E" stroke-width="1" opacity="1"/>
+<text x="398.1" y="1077" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#F0883E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">IN PROGRESS</text>
+<g transform="translate(535,970) scale(1.25)" opacity="1"><rect x="16" y="4" width="32" height="56" rx="3" fill="#2B4A66" stroke="#75B6E7" stroke-width="2" stroke-dasharray="4 2"/><rect x="21" y="10" width="22" height="5" rx="1" fill="#16283A"/><rect x="21" y="18" width="22" height="5" rx="1" fill="#16283A"/><rect x="21" y="26" width="22" height="5" rx="1" fill="#16283A"/><circle cx="25" cy="50" r="2.5" fill="#3FB950"/><rect x="30" y="42" width="22" height="14" rx="3" fill="#0064B5"/><text x="41" y="53" font-family="Segoe UI,Arial" font-size="10" font-weight="bold" fill="#fff" text-anchor="middle">VM</text></g>
 <rect x="642" y="960" width="285" height="130" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.75"/>
 <rect x="642" y="960" width="5" height="130" rx="2" fill="#8B949E" stroke="#8B949E" stroke-width="0" opacity="0.75"/>
 <text x="658" y="984" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="0.75">SIEM01</text>

@@ -1,6 +1,7 @@
 # DC01 — Active Directory Domain Controller — Step by Step
 
 **Goal:** A domain `sam.lab` with DNS, organized OUs, role-based groups, and domain-joined clients.
+**Status:** ✅ Built
 **Server:** DC01 · Windows Server 2022 (Hyper-V Gen 2, 4 GB) · IP 10.0.0.4 · NetBIOS `SAM`
 
 ---
@@ -41,6 +42,8 @@ sam.lab
     └── Users
         ├── General User
         ├── IT
+        ├── HR
+        ├── Finance
         └── Operations
 ```
 
@@ -118,4 +121,5 @@ nslookup -type=SRV _ldap._tcp.dc._msdcs.sam.lab
 - [ ] 50-policy security baseline (password, lockout, auditing — see GPO guide)
 - [ ] AD backup (System State) and restore test
 - [ ] Join CLIENT02, CLIENT03, CLIENT04
+- [ ] Remove TrustedHosts entry (10.0.0.103) left on DC01 from host work
 - [ ] Move Admins into a tiered OU (Tier 0/1/2)

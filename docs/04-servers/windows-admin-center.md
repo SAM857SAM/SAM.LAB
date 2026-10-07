@@ -1,6 +1,7 @@
 # WAC01 — Windows Admin Center + RSAT — Step by Step
 
 **Goal:** Manage all servers from a browser instead of logging into each one.
+**Status:** ✅ Built
 **Server:** WAC01 · IP 10.0.0.7 · URL `https://wac01.sam.lab` · WAC version 2606
 
 ---
@@ -47,6 +48,7 @@ Test-NetConnection dc01.sam.lab -Port 5985
 ```
 
 ## 📋 Pending (not built yet)
+- [ ] Remove TrustedHosts `*` set by the installer
 - [ ] Replace self-signed cert with one from an internal AD CS
 - [ ] Use WinRM over HTTPS (5986)
 - [ ] Add every server (DHCP, DEPLOYWIN, FILE01, WEB01 via firewall rule)

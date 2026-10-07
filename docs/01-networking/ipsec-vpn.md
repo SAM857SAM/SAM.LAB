@@ -1,6 +1,7 @@
 # IPsec Remote-Access VPN (IKEv2) — Step by Step
 
 **Goal:** Reach the lab safely from anywhere, without opening RDP to the internet.
+**Status:** ✅ Built — tested from outside (client got 10.0.20.2)
 **Built on:** pfSense FW01 · **Client:** Windows 11 built-in VPN
 
 | Setting | Value |
@@ -39,6 +40,10 @@
 4. Encryption **AES 256 / SHA256 / DH 14**, Life Time `28800`, MOBIKE on.
 
 ![Phase 1](../../screenshots/vpn/02-phase1.jpg)
+
+Result in **VPN > IPsec > Tunnels**:
+
+![Tunnels P1](../../screenshots/vpn/00-tunnels-p1.jpg)
 
 ## Step 5 — Phase 2
 1. Mode **Tunnel IPv4**, Local Network **LAN subnet** (10.0.0.0/24).
@@ -110,6 +115,8 @@ nslookup sam.lab
 `10.0.0.0` goes through the `10.0.20.x` VPN interface.
 
 ![Route print](../../screenshots/vpn/10-route-print.jpg)
+
+Next: [Remote Desktop over the VPN](rdp-over-vpn.md).
 
 ## 📋 Pending (not built yet)
 - [ ] Certificate-based user auth (EAP-TLS) or MFA instead of password-only
