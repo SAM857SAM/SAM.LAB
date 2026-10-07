@@ -1,7 +1,7 @@
 # SAM.LAB — Enterprise Home Lab
 
 A small-enterprise network I built at home to practice real IT, networking, security, and forensics work.
-Built by **Samual A. Michael** — IT Help Desk Support, Cybersecurity & Network Engineering student (Saint Paul College), working toward **Cloud Security Engineer**.
+Built by **Samual A. Michael** — IT Help Desk Support, Network & System Administration certificate holder and Cybersecurity & Network Engineering A.A.S. student (Saint Paul College), working toward **Cloud Security Engineer**.
 
 > Sensitive values (public IP, external hostnames, VPN usernames, passwords, keys, MAC addresses) are replaced with `[CONFIDENTIAL]` or blurred. Screenshots that showed passwords are not published.
 
