@@ -22,7 +22,7 @@
 > ⚠ **Error:** The USB would not boot.
 > **Fix:** Secure Boot was blocking it. In BIOS, **disable Secure Boot** but keep **UEFI** on.
 
-![Installer boot](../../screenshots/pfsense/01-installer.png)
+> 📷 *Screenshot coming soon: pfSense installer boot screen*
 
 ## Step 3 — Install and assign interfaces
 1. Accept defaults and install to the SSD.
@@ -45,7 +45,7 @@
 3. Hostname `FW01`, Domain `sam.lab`, DNS `10.0.0.4`, Time zone `America/Chicago`.
 4. Change the default admin password.
 
-![Dashboard](../../screenshots/pfsense/02-dashboard.png)
+> 📷 *Screenshot coming soon: pfSense dashboard*
 
 ## Step 6 — Set up the DMZ
 1. Go to **Interfaces > OPT1**, check **Enable**, rename to **DMZ**.
