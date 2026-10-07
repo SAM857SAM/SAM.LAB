@@ -113,12 +113,12 @@
 <rect x="672" y="356" width="84.2" height="18" rx="9" fill="#F0883E" stroke="#F0883E" stroke-width="1" opacity="0.18"/>
 <rect x="672" y="356" width="84.2" height="18" rx="9" fill="none" stroke="#F0883E" stroke-width="1" opacity="1"/>
 <text x="714.1" y="369" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#F0883E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">IN PROGRESS</text>
-<rect x="658" y="393" width="272" height="78" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="0.8"/>
+<rect x="658" y="393" width="272" height="78" rx="6" fill="#0E2A3B" stroke="#F0883E" stroke-width="1.5" opacity="1"/>
 <text x="672" y="417" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Configuration Manager</text>
-<text x="672" y="436" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">OSD, apps, patching</text>
-<rect x="672" y="445" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
-<rect x="672" y="445" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
-<text x="701.7" y="458" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="672" y="436" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">CM01 — install not confirmed</text>
+<rect x="672" y="445" width="84.2" height="18" rx="9" fill="#F0883E" stroke="#F0883E" stroke-width="1" opacity="0.18"/>
+<rect x="672" y="445" width="84.2" height="18" rx="9" fill="none" stroke="#F0883E" stroke-width="1" opacity="1"/>
+<text x="714.1" y="458" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#F0883E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">IN PROGRESS</text>
 <rect x="658" y="482" width="272" height="78" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="0.8"/>
 <text x="672" y="506" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">PDQ Deploy &amp; Inventory</text>
 <text x="672" y="525" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Software deployment</text>
