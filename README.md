@@ -34,6 +34,22 @@ Built by **Samual A. Michael** — CSCI student, studying for CCNA and CompTIA S
                                 └─ DEMO01 / CLIENT01-02 (Windows 11)
 ```
 
+## Diagrams
+
+![Network topology](diagrams/01-network-topology.png)
+
+<details><summary><b>Security & management policies</b> (click to open)</summary>
+
+![Security policies](diagrams/02-security-policies.png)
+</details>
+
+<details><summary><b>Applications & roadmap</b> (click to open)</summary>
+
+![Applications](diagrams/03-applications.png)
+</details>
+
+> Editable SVG versions are in [`diagrams/`](diagrams/).
+
 ## Systems
 
 | Host | IP | Role | Status |

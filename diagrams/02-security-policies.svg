@@ -1,0 +1,293 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120">
+<rect x="0" y="0" width="1600" height="1120" rx="0" fill="#1F1F1F" stroke="#1F1F1F" stroke-width="1" opacity="1"/>
+<rect x="20" y="20" width="1560" height="110" rx="8" fill="#091F2C" stroke="#404040" stroke-width="1" opacity="1"/>
+<clipPath id="hc"><rect x="20" y="20" width="1560" height="110" rx="8"/></clipPath>
+<g clip-path="url(#hc)"><circle cx="1480" cy="60" r="70" fill="#1B3140" opacity="0.8"/><circle cx="1370" cy="120" r="45" fill="#1B3140" opacity="0.6"/></g>
+<path d="M60 42 L90 52 L90 78 Q90 98 60 110 Q30 98 30 78 L30 52 Z" fill="#0064B5" stroke="#75B6E7" stroke-width="2"/>
+<path d="M48 76 L57 85 L74 66" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="110" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="bold" text-anchor="start" letter-spacing="2" opacity="1">SAM.LAB HOME LAB • SECURITY BASELINE</text>
+<text x="110" y="88" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="32" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">SAM.LAB — Security &amp; Management Policies</text>
+<text x="110" y="114" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">What is applied today vs. the planned baseline • Domain sam.lab • Managed with Active Directory + Group Policy</text>
+<rect x="1140" y="104" width="65" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="1140" y="104" width="65" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="1172.5" y="117" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<rect x="1215" y="104" width="65" height="18" rx="9" fill="#F0883E" stroke="#F0883E" stroke-width="1" opacity="0.18"/>
+<rect x="1215" y="104" width="65" height="18" rx="9" fill="none" stroke="#F0883E" stroke-width="1" opacity="1"/>
+<text x="1247.5" y="117" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#F0883E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PARTIAL</text>
+<rect x="1290" y="104" width="65" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="1290" y="104" width="65" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1322.5" y="117" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="30" y="155" width="362" height="455" rx="8" fill="#091F2C" stroke="#404040" stroke-width="1" opacity="1"/>
+<rect x="30" y="155" width="362" height="44" rx="8" fill="#3FB950" stroke="#3FB950" stroke-width="0" opacity="0.25"/>
+<rect x="30" y="155" width="362" height="4" rx="2" fill="#3FB950" stroke="#3FB950" stroke-width="0" opacity="1"/>
+<text x="46" y="184" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0.5" opacity="1">1. IDENTITY &amp; ACCESS</text>
+<text x="46" y="231" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Role-based AD groups</text>
+<text x="46" y="250" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">GG_General_Users, GG_Operations, GG_IT_Users</text>
+<rect x="46" y="257" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="46" y="257" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="75.7" y="270" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<text x="46" y="295" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Least privilege</text>
+<text x="46" y="314" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Standard users are not local admins</text>
+<rect x="46" y="321" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="46" y="321" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="75.7" y="334" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<text x="46" y="359" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">OU structure</text>
+<text x="46" y="378" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">SAMLAB &gt; Users / Computers / Servers / Groups</text>
+<rect x="46" y="385" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="46" y="385" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="75.7" y="398" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<text x="46" y="423" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Password policy</text>
+<text x="46" y="442" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">14+ chars, complexity, history 24</text>
+<rect x="46" y="449" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="46" y="449" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="75.7" y="462" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="46" y="487" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Account lockout</text>
+<text x="46" y="506" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">5 failed attempts, 15 min</text>
+<rect x="46" y="513" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="46" y="513" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="75.7" y="526" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="46" y="551" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Windows LAPS</text>
+<text x="46" y="570" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Unique local admin passwords</text>
+<rect x="46" y="577" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="46" y="577" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="75.7" y="590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="410" y="155" width="362" height="455" rx="8" fill="#091F2C" stroke="#404040" stroke-width="1" opacity="1"/>
+<rect x="410" y="155" width="362" height="44" rx="8" fill="#2F81F7" stroke="#2F81F7" stroke-width="0" opacity="0.25"/>
+<rect x="410" y="155" width="362" height="4" rx="2" fill="#2F81F7" stroke="#2F81F7" stroke-width="0" opacity="1"/>
+<text x="426" y="184" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0.5" opacity="1">2. ENDPOINT SECURITY</text>
+<text x="426" y="231" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">User restrictions GPO</text>
+<text x="426" y="250" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">No cmd, regedit, Control Panel, Task Mgr</text>
+<rect x="426" y="257" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="426" y="257" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="455.7" y="270" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<text x="426" y="295" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Defender policy</text>
+<text x="426" y="314" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Real-time + cloud protection via GPO</text>
+<rect x="426" y="321" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="426" y="321" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="455.7" y="334" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="426" y="359" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Windows Firewall GPO</text>
+<text x="426" y="378" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">On for all profiles</text>
+<rect x="426" y="385" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="426" y="385" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="455.7" y="398" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="426" y="423" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Screen lock</text>
+<text x="426" y="442" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Lock after 15 min idle</text>
+<rect x="426" y="449" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="426" y="449" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="455.7" y="462" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="426" y="487" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">USB / removable storage</text>
+<text x="426" y="506" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Block, except approved IT</text>
+<rect x="426" y="513" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="426" y="513" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="455.7" y="526" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="426" y="551" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">BitLocker</text>
+<text x="426" y="570" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Encrypt supported devices</text>
+<rect x="426" y="577" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="426" y="577" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="455.7" y="590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="790" y="155" width="362" height="455" rx="8" fill="#091F2C" stroke="#404040" stroke-width="1" opacity="1"/>
+<rect x="790" y="155" width="362" height="44" rx="8" fill="#A371F7" stroke="#A371F7" stroke-width="0" opacity="0.25"/>
+<rect x="790" y="155" width="362" height="4" rx="2" fill="#A371F7" stroke="#A371F7" stroke-width="0" opacity="1"/>
+<text x="806" y="184" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0.5" opacity="1">3. CENTRAL MANAGEMENT</text>
+<text x="806" y="231" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Group Policy by OU</text>
+<text x="806" y="250" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">GPOs linked per OU</text>
+<rect x="806" y="257" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="806" y="257" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="835.7" y="270" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<text x="806" y="295" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Windows Admin Center</text>
+<text x="806" y="314" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Browser-based server management</text>
+<rect x="806" y="321" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="806" y="321" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="835.7" y="334" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<text x="806" y="359" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Desktop wallpaper GPO</text>
+<text x="806" y="378" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Group-targeted — filtering issue</text>
+<rect x="806" y="385" width="59.4" height="18" rx="9" fill="#F0883E" stroke="#F0883E" stroke-width="1" opacity="0.18"/>
+<rect x="806" y="385" width="59.4" height="18" rx="9" fill="none" stroke="#F0883E" stroke-width="1" opacity="1"/>
+<text x="835.7" y="398" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#F0883E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PARTIAL</text>
+<text x="806" y="423" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Network deployment</text>
+<text x="806" y="442" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">WDS / PXE on DEPLOYWIN</text>
+<rect x="806" y="449" width="59.4" height="18" rx="9" fill="#F0883E" stroke="#F0883E" stroke-width="1" opacity="0.18"/>
+<rect x="806" y="449" width="59.4" height="18" rx="9" fill="none" stroke="#F0883E" stroke-width="1" opacity="1"/>
+<text x="835.7" y="462" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#F0883E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PARTIAL</text>
+<text x="806" y="487" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Windows Update policy</text>
+<text x="806" y="506" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Auto updates on schedule</text>
+<rect x="806" y="513" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="806" y="513" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="835.7" y="526" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="806" y="551" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">App deployment</text>
+<text x="806" y="570" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Configuration Manager (CM01)</text>
+<rect x="806" y="577" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="806" y="577" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="835.7" y="590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="1170" y="155" width="362" height="455" rx="8" fill="#091F2C" stroke="#404040" stroke-width="1" opacity="1"/>
+<rect x="1170" y="155" width="362" height="44" rx="8" fill="#F0883E" stroke="#F0883E" stroke-width="0" opacity="0.25"/>
+<rect x="1170" y="155" width="362" height="4" rx="2" fill="#F0883E" stroke="#F0883E" stroke-width="0" opacity="1"/>
+<text x="1186" y="184" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0.5" opacity="1">4. MONITORING &amp; AUDITING</text>
+<text x="1186" y="231" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">gpresult checks</text>
+<text x="1186" y="250" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Verify policy on clients</text>
+<rect x="1186" y="257" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="1186" y="257" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="1215.7" y="270" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<text x="1186" y="295" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Audit logon / account mgmt</text>
+<text x="1186" y="314" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Success + failure</text>
+<rect x="1186" y="321" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="1186" y="321" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1215.7" y="334" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="1186" y="359" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">PowerShell logging</text>
+<text x="1186" y="378" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Script block + module</text>
+<rect x="1186" y="385" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="1186" y="385" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1215.7" y="398" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="1186" y="423" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Sysmon telemetry</text>
+<text x="1186" y="442" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Process + network events</text>
+<rect x="1186" y="449" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="1186" y="449" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1215.7" y="462" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="1186" y="487" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Central logs (SIEM)</text>
+<text x="1186" y="506" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Wazuh / Elastic</text>
+<rect x="1186" y="513" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="1186" y="513" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1215.7" y="526" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="1186" y="551" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Log retention</text>
+<text x="1186" y="570" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Security logs 90 days</text>
+<rect x="1186" y="577" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="1186" y="577" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1215.7" y="590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="30" y="630" width="362" height="455" rx="8" fill="#091F2C" stroke="#404040" stroke-width="1" opacity="1"/>
+<rect x="30" y="630" width="362" height="44" rx="8" fill="#F85149" stroke="#F85149" stroke-width="0" opacity="0.25"/>
+<rect x="30" y="630" width="362" height="4" rx="2" fill="#F85149" stroke="#F85149" stroke-width="0" opacity="1"/>
+<text x="46" y="659" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0.5" opacity="1">5. NETWORK SECURITY</text>
+<text x="46" y="706" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Edge firewall</text>
+<text x="46" y="725" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">pfSense, default deny inbound</text>
+<rect x="46" y="732" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="46" y="732" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="75.7" y="745" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<text x="46" y="770" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Remote access via VPN</text>
+<text x="46" y="789" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">IPsec IKEv2, AES-256, private CA</text>
+<rect x="46" y="796" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="46" y="796" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="75.7" y="809" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<text x="46" y="834" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">No public RDP</text>
+<text x="46" y="853" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">RDP only via LAN / VPN / Guacamole</text>
+<rect x="46" y="860" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="46" y="860" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="75.7" y="873" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<text x="46" y="898" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Zero-trust web access</text>
+<text x="46" y="917" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Cloudflare Tunnel + Access login</text>
+<rect x="46" y="924" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="46" y="924" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="75.7" y="937" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<text x="46" y="962" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">DMZ isolation</text>
+<text x="46" y="981" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">WEB01 blocked from LAN</text>
+<rect x="46" y="988" width="59.4" height="18" rx="9" fill="#F0883E" stroke="#F0883E" stroke-width="1" opacity="0.18"/>
+<rect x="46" y="988" width="59.4" height="18" rx="9" fill="none" stroke="#F0883E" stroke-width="1" opacity="1"/>
+<text x="75.7" y="1001" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#F0883E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PARTIAL</text>
+<text x="46" y="1026" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">IDS/IPS + VLANs</text>
+<text x="46" y="1045" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Suricata, 802.1Q segments</text>
+<rect x="46" y="1052" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="46" y="1052" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="75.7" y="1065" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="410" y="630" width="362" height="455" rx="8" fill="#091F2C" stroke="#404040" stroke-width="1" opacity="1"/>
+<rect x="410" y="630" width="362" height="44" rx="8" fill="#39C5CF" stroke="#39C5CF" stroke-width="0" opacity="0.25"/>
+<rect x="410" y="630" width="362" height="4" rx="2" fill="#39C5CF" stroke="#39C5CF" stroke-width="0" opacity="1"/>
+<text x="426" y="659" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0.5" opacity="1">6. DATA PROTECTION</text>
+<text x="426" y="706" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Read-only shares</text>
+<text x="426" y="725" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Wallpaper share: Everyone Read</text>
+<rect x="426" y="732" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="426" y="732" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="455.7" y="745" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<text x="426" y="770" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">NTFS least privilege</text>
+<text x="426" y="789" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Group-based NTFS on FILE01</text>
+<rect x="426" y="796" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="426" y="796" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="455.7" y="809" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="426" y="834" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">SMB hardening</text>
+<text x="426" y="853" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">SMBv1 off, signing required</text>
+<rect x="426" y="860" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="426" y="860" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="455.7" y="873" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="426" y="898" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Backups</text>
+<text x="426" y="917" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Servers + AD system state</text>
+<rect x="426" y="924" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="426" y="924" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="455.7" y="937" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="426" y="962" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">HTTPS everywhere</text>
+<text x="426" y="981" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Trusted certs for WAC / WEB01</text>
+<rect x="426" y="988" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="426" y="988" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="455.7" y="1001" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="426" y="1026" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Secrets handling</text>
+<text x="426" y="1045" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">No passwords in docs or Git</text>
+<rect x="426" y="1052" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="426" y="1052" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="455.7" y="1065" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<rect x="790" y="630" width="362" height="455" rx="8" fill="#091F2C" stroke="#404040" stroke-width="1" opacity="1"/>
+<rect x="790" y="630" width="362" height="44" rx="8" fill="#D29922" stroke="#D29922" stroke-width="0" opacity="0.25"/>
+<rect x="790" y="630" width="362" height="4" rx="2" fill="#D29922" stroke="#D29922" stroke-width="0" opacity="1"/>
+<text x="806" y="659" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0.5" opacity="1">7. ACCESS &amp; USAGE</text>
+<text x="806" y="706" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">RDP to clients</text>
+<text x="806" y="725" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Only Remote Desktop Users group</text>
+<rect x="806" y="732" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="806" y="732" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="835.7" y="745" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<text x="806" y="770" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Domain membership</text>
+<text x="806" y="789" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Windows endpoints joined to sam.lab</text>
+<rect x="806" y="796" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="806" y="796" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="835.7" y="809" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<text x="806" y="834" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Internal DNS only</text>
+<text x="806" y="853" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">All clients use DC01 10.0.0.4</text>
+<rect x="806" y="860" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="806" y="860" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="835.7" y="873" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<text x="806" y="898" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Central DHCP</text>
+<text x="806" y="917" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">One server; pfSense + AP DHCP off</text>
+<rect x="806" y="924" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="806" y="924" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="835.7" y="937" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<text x="806" y="962" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Naming standard</text>
+<text x="806" y="981" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">DC01, WAC01, CLIENT01 …</text>
+<rect x="806" y="988" width="59.4" height="18" rx="9" fill="#F0883E" stroke="#F0883E" stroke-width="1" opacity="0.18"/>
+<rect x="806" y="988" width="59.4" height="18" rx="9" fill="none" stroke="#F0883E" stroke-width="1" opacity="1"/>
+<text x="835.7" y="1001" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#F0883E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PARTIAL</text>
+<text x="806" y="1026" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">PXE approval</text>
+<text x="806" y="1045" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Only approved devices can deploy</text>
+<rect x="806" y="1052" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="806" y="1052" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="835.7" y="1065" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="1170" y="630" width="362" height="455" rx="8" fill="#091F2C" stroke="#404040" stroke-width="1" opacity="1"/>
+<rect x="1170" y="630" width="362" height="44" rx="8" fill="#56D364" stroke="#56D364" stroke-width="0" opacity="0.25"/>
+<rect x="1170" y="630" width="362" height="4" rx="2" fill="#56D364" stroke="#56D364" stroke-width="0" opacity="1"/>
+<text x="1186" y="659" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0.5" opacity="1">8. HARDENING</text>
+<text x="1186" y="706" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Default passwords changed</text>
+<text x="1186" y="725" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">pfSense, Guacamole admin</text>
+<rect x="1186" y="732" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="1186" y="732" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="1215.7" y="745" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<text x="1186" y="770" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Strong VPN crypto</text>
+<text x="1186" y="789" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">No SHA1, DH group ≥ 14</text>
+<rect x="1186" y="796" width="59.4" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="1186" y="796" width="59.4" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="1215.7" y="809" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">APPLIED</text>
+<text x="1186" y="834" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Guest accounts disabled</text>
+<text x="1186" y="853" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">All systems</text>
+<rect x="1186" y="860" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="1186" y="860" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1215.7" y="873" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="1186" y="898" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Service hardening</text>
+<text x="1186" y="917" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Disable unused services</text>
+<rect x="1186" y="924" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="1186" y="924" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1215.7" y="937" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="1186" y="962" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">AppLocker</text>
+<text x="1186" y="981" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Audit first, then enforce</text>
+<rect x="1186" y="988" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="1186" y="988" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1215.7" y="1001" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="1186" y="1026" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Compliance review</text>
+<text x="1186" y="1045" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">RSOP / gpresult reports</text>
+<rect x="1186" y="1052" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="1186" y="1052" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1215.7" y="1065" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<text x="800.0" y="1106" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E" font-weight="normal" text-anchor="middle" letter-spacing="0" opacity="1">19 of 48 controls applied today  •  Remaining items are tracked as Pending checklists in each guide  •  github.com/SAM857SAM/SAM.LAB</text>
+</svg>

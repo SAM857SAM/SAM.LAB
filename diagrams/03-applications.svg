@@ -1,0 +1,252 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1060" viewBox="0 0 1600 1060">
+<rect x="0" y="0" width="1600" height="1060" rx="0" fill="#1F1F1F" stroke="#1F1F1F" stroke-width="1" opacity="1"/>
+<rect x="20" y="20" width="1560" height="110" rx="8" fill="#091F2C" stroke="#404040" stroke-width="1" opacity="1"/>
+<clipPath id="hc"><rect x="20" y="20" width="1560" height="110" rx="8"/></clipPath>
+<g clip-path="url(#hc)"><circle cx="1480" cy="60" r="70" fill="#1B3140" opacity="0.8"/><circle cx="1370" cy="120" r="45" fill="#1B3140" opacity="0.6"/></g>
+<path d="M60 42 L90 52 L90 78 Q90 98 60 110 Q30 98 30 78 L30 52 Z" fill="#0064B5" stroke="#75B6E7" stroke-width="2"/>
+<path d="M48 76 L57 85 L74 66" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="110" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="bold" text-anchor="start" letter-spacing="2" opacity="1">SAM.LAB HOME LAB • APPLICATIONS</text>
+<text x="110" y="88" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="32" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">SAM.LAB — Core Applications &amp; Roadmap</text>
+<text x="110" y="114" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Enterprise IT • Endpoint Management • SOC / Cybersecurity • Network Security</text>
+<rect x="1140" y="104" width="51" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="1140" y="104" width="51" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="1165.5" y="117" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">BUILT</text>
+<rect x="1201" y="104" width="93" height="18" rx="9" fill="#F0883E" stroke="#F0883E" stroke-width="1" opacity="0.18"/>
+<rect x="1201" y="104" width="93" height="18" rx="9" fill="none" stroke="#F0883E" stroke-width="1" opacity="1"/>
+<text x="1247.5" y="117" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#F0883E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">IN PROGRESS</text>
+<rect x="1304" y="104" width="65" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="1304" y="104" width="65" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1336.5" y="117" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="30" y="155" width="296" height="600" rx="8" fill="#091F2C" stroke="#404040" stroke-width="1" opacity="1"/>
+<rect x="30" y="155" width="296" height="44" rx="8" fill="#2F81F7" stroke="#2F81F7" stroke-width="0" opacity="0.25"/>
+<rect x="30" y="155" width="296" height="4" rx="2" fill="#2F81F7" stroke="#2F81F7" stroke-width="0" opacity="1"/>
+<text x="46" y="184" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0.5" opacity="1">INFRASTRUCTURE</text>
+<rect x="42" y="215" width="272" height="78" rx="6" fill="#0E2A3B" stroke="#3FB950" stroke-width="1.5" opacity="1"/>
+<text x="56" y="239" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">pfSense CE 2.9.0</text>
+<text x="56" y="258" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Firewall, NAT, DMZ, IPsec VPN</text>
+<rect x="56" y="267" width="47.0" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="56" y="267" width="47.0" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="79.5" y="280" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">BUILT</text>
+<rect x="42" y="304" width="272" height="78" rx="6" fill="#0E2A3B" stroke="#3FB950" stroke-width="1.5" opacity="1"/>
+<text x="56" y="328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Hyper-V</text>
+<text x="56" y="347" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Virtualization host</text>
+<rect x="56" y="356" width="47.0" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="56" y="356" width="47.0" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="79.5" y="369" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">BUILT</text>
+<rect x="42" y="393" width="272" height="78" rx="6" fill="#0E2A3B" stroke="#3FB950" stroke-width="1.5" opacity="1"/>
+<text x="56" y="417" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Active Directory + DNS</text>
+<text x="56" y="436" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Domain sam.lab on DC01</text>
+<rect x="56" y="445" width="47.0" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="56" y="445" width="47.0" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="79.5" y="458" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">BUILT</text>
+<rect x="42" y="482" width="272" height="78" rx="6" fill="#0E2A3B" stroke="#3FB950" stroke-width="1.5" opacity="1"/>
+<text x="56" y="506" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Windows DHCP</text>
+<text x="56" y="525" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Central IP addressing</text>
+<rect x="56" y="534" width="47.0" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="56" y="534" width="47.0" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="79.5" y="547" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">BUILT</text>
+<rect x="42" y="571" width="272" height="78" rx="6" fill="#0E2A3B" stroke="#3FB950" stroke-width="1.5" opacity="1"/>
+<text x="56" y="595" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Group Policy</text>
+<text x="56" y="614" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">User restrictions, wallpaper</text>
+<rect x="56" y="623" width="47.0" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="56" y="623" width="47.0" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="79.5" y="636" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">BUILT</text>
+<rect x="42" y="660" width="272" height="78" rx="6" fill="#0E2A3B" stroke="#3FB950" stroke-width="1.5" opacity="1"/>
+<text x="56" y="684" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Windows Admin Center</text>
+<text x="56" y="703" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Server management (WAC01)</text>
+<rect x="56" y="712" width="47.0" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="56" y="712" width="47.0" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="79.5" y="725" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">BUILT</text>
+<rect x="338" y="155" width="296" height="600" rx="8" fill="#091F2C" stroke="#404040" stroke-width="1" opacity="1"/>
+<rect x="338" y="155" width="296" height="44" rx="8" fill="#3FB950" stroke="#3FB950" stroke-width="0" opacity="0.25"/>
+<rect x="338" y="155" width="296" height="4" rx="2" fill="#3FB950" stroke="#3FB950" stroke-width="0" opacity="1"/>
+<text x="354" y="184" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0.5" opacity="1">REMOTE ACCESS</text>
+<rect x="350" y="215" width="272" height="78" rx="6" fill="#0E2A3B" stroke="#3FB950" stroke-width="1.5" opacity="1"/>
+<text x="364" y="239" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">IPsec IKEv2 VPN</text>
+<text x="364" y="258" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Remote admin into LAN</text>
+<rect x="364" y="267" width="47.0" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="364" y="267" width="47.0" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="387.5" y="280" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">BUILT</text>
+<rect x="350" y="304" width="272" height="78" rx="6" fill="#0E2A3B" stroke="#3FB950" stroke-width="1.5" opacity="1"/>
+<text x="364" y="328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Apache Guacamole 1.6.0</text>
+<text x="364" y="347" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">RDP in the browser</text>
+<rect x="364" y="356" width="47.0" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="364" y="356" width="47.0" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="387.5" y="369" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">BUILT</text>
+<rect x="350" y="393" width="272" height="78" rx="6" fill="#0E2A3B" stroke="#3FB950" stroke-width="1.5" opacity="1"/>
+<text x="364" y="417" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Cloudflare Tunnel + Access</text>
+<text x="364" y="436" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Zero-trust, no open ports</text>
+<rect x="364" y="445" width="47.0" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="364" y="445" width="47.0" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="387.5" y="458" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">BUILT</text>
+<rect x="350" y="482" width="272" height="78" rx="6" fill="#0E2A3B" stroke="#3FB950" stroke-width="1.5" opacity="1"/>
+<text x="364" y="506" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Internal CA</text>
+<text x="364" y="525" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">VPN certificates</text>
+<rect x="364" y="534" width="47.0" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="364" y="534" width="47.0" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="387.5" y="547" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">BUILT</text>
+<rect x="350" y="571" width="272" height="78" rx="6" fill="#0E2A3B" stroke="#3FB950" stroke-width="1.5" opacity="1"/>
+<text x="364" y="595" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">RSAT</text>
+<text x="364" y="614" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">AD tools on admin laptop</text>
+<rect x="364" y="623" width="47.0" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="364" y="623" width="47.0" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="387.5" y="636" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">BUILT</text>
+<rect x="350" y="660" width="272" height="78" rx="6" fill="#0E2A3B" stroke="#3FB950" stroke-width="1.5" opacity="1"/>
+<text x="364" y="684" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">MariaDB / Tomcat 10</text>
+<text x="364" y="703" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Guacamole backend</text>
+<rect x="364" y="712" width="47.0" height="18" rx="9" fill="#3FB950" stroke="#3FB950" stroke-width="1" opacity="0.18"/>
+<rect x="364" y="712" width="47.0" height="18" rx="9" fill="none" stroke="#3FB950" stroke-width="1" opacity="1"/>
+<text x="387.5" y="725" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#3FB950" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">BUILT</text>
+<rect x="646" y="155" width="296" height="600" rx="8" fill="#091F2C" stroke="#404040" stroke-width="1" opacity="1"/>
+<rect x="646" y="155" width="296" height="44" rx="8" fill="#A371F7" stroke="#A371F7" stroke-width="0" opacity="0.25"/>
+<rect x="646" y="155" width="296" height="4" rx="2" fill="#A371F7" stroke="#A371F7" stroke-width="0" opacity="1"/>
+<text x="662" y="184" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0.5" opacity="1">ENDPOINT MANAGEMENT</text>
+<rect x="658" y="215" width="272" height="78" rx="6" fill="#0E2A3B" stroke="#F0883E" stroke-width="1.5" opacity="1"/>
+<text x="672" y="239" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">WDS / PXE</text>
+<text x="672" y="258" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Network OS install</text>
+<rect x="672" y="267" width="84.2" height="18" rx="9" fill="#F0883E" stroke="#F0883E" stroke-width="1" opacity="0.18"/>
+<rect x="672" y="267" width="84.2" height="18" rx="9" fill="none" stroke="#F0883E" stroke-width="1" opacity="1"/>
+<text x="714.1" y="280" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#F0883E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">IN PROGRESS</text>
+<rect x="658" y="304" width="272" height="78" rx="6" fill="#0E2A3B" stroke="#F0883E" stroke-width="1.5" opacity="1"/>
+<text x="672" y="328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">IIS on WEB01</text>
+<text x="672" y="347" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">DMZ web server</text>
+<rect x="672" y="356" width="84.2" height="18" rx="9" fill="#F0883E" stroke="#F0883E" stroke-width="1" opacity="0.18"/>
+<rect x="672" y="356" width="84.2" height="18" rx="9" fill="none" stroke="#F0883E" stroke-width="1" opacity="1"/>
+<text x="714.1" y="369" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#F0883E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">IN PROGRESS</text>
+<rect x="658" y="393" width="272" height="78" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="0.8"/>
+<text x="672" y="417" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Configuration Manager</text>
+<text x="672" y="436" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">OSD, apps, patching</text>
+<rect x="672" y="445" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="672" y="445" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="701.7" y="458" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="658" y="482" width="272" height="78" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="0.8"/>
+<text x="672" y="506" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">PDQ Deploy &amp; Inventory</text>
+<text x="672" y="525" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Software deployment</text>
+<rect x="672" y="534" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="672" y="534" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="701.7" y="547" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="658" y="571" width="272" height="78" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="0.8"/>
+<text x="672" y="595" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Ivanti Neurons</text>
+<text x="672" y="614" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Concepts from work</text>
+<rect x="672" y="623" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="672" y="623" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="701.7" y="636" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="658" y="660" width="272" height="78" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="0.8"/>
+<text x="672" y="684" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">LabStats</text>
+<text x="672" y="703" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Lab usage tracking</text>
+<rect x="672" y="712" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="672" y="712" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="701.7" y="725" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="954" y="155" width="296" height="600" rx="8" fill="#091F2C" stroke="#404040" stroke-width="1" opacity="1"/>
+<rect x="954" y="155" width="296" height="44" rx="8" fill="#F0883E" stroke="#F0883E" stroke-width="0" opacity="0.25"/>
+<rect x="954" y="155" width="296" height="4" rx="2" fill="#F0883E" stroke="#F0883E" stroke-width="0" opacity="1"/>
+<text x="970" y="184" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0.5" opacity="1">SOC &amp; MONITORING</text>
+<rect x="966" y="215" width="272" height="78" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="0.8"/>
+<text x="980" y="239" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Sysmon</text>
+<text x="980" y="258" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Windows telemetry</text>
+<rect x="980" y="267" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="980" y="267" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1009.7" y="280" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="966" y="304" width="272" height="78" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="0.8"/>
+<text x="980" y="328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Wazuh</text>
+<text x="980" y="347" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">SIEM / XDR</text>
+<rect x="980" y="356" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="980" y="356" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1009.7" y="369" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="966" y="393" width="272" height="78" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="0.8"/>
+<text x="980" y="417" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Elastic Stack</text>
+<text x="980" y="436" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Log search + dashboards</text>
+<rect x="980" y="445" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="980" y="445" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1009.7" y="458" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="966" y="482" width="272" height="78" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="0.8"/>
+<text x="980" y="506" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">TheHive</text>
+<text x="980" y="525" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Incident case management</text>
+<rect x="980" y="534" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="980" y="534" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1009.7" y="547" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="966" y="571" width="272" height="78" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="0.8"/>
+<text x="980" y="595" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Zabbix</text>
+<text x="980" y="614" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Infrastructure monitoring</text>
+<rect x="980" y="623" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="980" y="623" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1009.7" y="636" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="966" y="660" width="272" height="78" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="0.8"/>
+<text x="980" y="684" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Suricata</text>
+<text x="980" y="703" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">IDS/IPS on pfSense</text>
+<rect x="980" y="712" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="980" y="712" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1009.7" y="725" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="1262" y="155" width="296" height="600" rx="8" fill="#091F2C" stroke="#404040" stroke-width="1" opacity="1"/>
+<rect x="1262" y="155" width="296" height="44" rx="8" fill="#F85149" stroke="#F85149" stroke-width="0" opacity="0.25"/>
+<rect x="1262" y="155" width="296" height="4" rx="2" fill="#F85149" stroke="#F85149" stroke-width="0" opacity="1"/>
+<text x="1278" y="184" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0.5" opacity="1">SECURITY TESTING</text>
+<rect x="1274" y="215" width="272" height="78" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="0.8"/>
+<text x="1288" y="239" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Wireshark</text>
+<text x="1288" y="258" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Packet analysis</text>
+<rect x="1288" y="267" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="1288" y="267" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1317.7" y="280" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="1274" y="304" width="272" height="78" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="0.8"/>
+<text x="1288" y="328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Nmap</text>
+<text x="1288" y="347" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Host + port discovery</text>
+<rect x="1288" y="356" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="1288" y="356" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1317.7" y="369" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="1274" y="393" width="272" height="78" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="0.8"/>
+<text x="1288" y="417" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Kali Linux</text>
+<text x="1288" y="436" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Authorized pen testing</text>
+<rect x="1288" y="445" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="1288" y="445" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1317.7" y="458" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="1274" y="482" width="272" height="78" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="0.8"/>
+<text x="1288" y="506" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Greenbone / OpenVAS</text>
+<text x="1288" y="525" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Vulnerability scanning</text>
+<rect x="1288" y="534" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="1288" y="534" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1317.7" y="547" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="1274" y="571" width="272" height="78" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="0.8"/>
+<text x="1288" y="595" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">Autopsy</text>
+<text x="1288" y="614" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Digital forensics</text>
+<rect x="1288" y="623" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="1288" y="623" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1317.7" y="636" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="1274" y="660" width="272" height="78" rx="6" fill="#091F2C" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="0.8"/>
+<text x="1288" y="684" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="0" opacity="1">NetBox</text>
+<text x="1288" y="703" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="start" letter-spacing="0" opacity="1">Source of truth / IPAM</text>
+<rect x="1288" y="712" width="59.4" height="18" rx="9" fill="#8B949E" stroke="#8B949E" stroke-width="1" opacity="0.18"/>
+<rect x="1288" y="712" width="59.4" height="18" rx="9" fill="none" stroke="#8B949E" stroke-width="1" opacity="1"/>
+<text x="1317.7" y="725" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#8B949E" font-weight="bold" text-anchor="middle" letter-spacing="0.5" opacity="1">PLANNED</text>
+<rect x="30" y="785" width="1540" height="230" rx="8" fill="#091F2C" stroke="#404040" stroke-width="1" opacity="1"/>
+<text x="50" y="815" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#D2D2D2" font-weight="bold" text-anchor="start" letter-spacing="2" opacity="1">TARGET SOC WORKFLOW (PLANNED)</text>
+<rect x="60" y="845" width="200" height="90" rx="8" fill="#0E2A3B" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="1"/>
+<text x="160" y="883" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle" letter-spacing="0" opacity="1">Endpoints</text>
+<text x="160" y="907" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="middle" letter-spacing="0" opacity="1">Clients + servers</text>
+<line x1="265" y1="890" x2="305" y2="890" stroke="#75B6E7" stroke-width="2"/>
+<path d="M305 884 L312 890 L305 896 Z" fill="#75B6E7"/>
+<rect x="312" y="845" width="200" height="90" rx="8" fill="#0E2A3B" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="1"/>
+<text x="412" y="883" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle" letter-spacing="0" opacity="1">Telemetry</text>
+<text x="412" y="907" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="middle" letter-spacing="0" opacity="1">Sysmon, event logs</text>
+<line x1="517" y1="890" x2="557" y2="890" stroke="#75B6E7" stroke-width="2"/>
+<path d="M557 884 L564 890 L557 896 Z" fill="#75B6E7"/>
+<rect x="564" y="845" width="200" height="90" rx="8" fill="#0E2A3B" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="1"/>
+<text x="664" y="883" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle" letter-spacing="0" opacity="1">Wazuh SIEM</text>
+<text x="664" y="907" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="middle" letter-spacing="0" opacity="1">Detect + alert</text>
+<line x1="769" y1="890" x2="809" y2="890" stroke="#75B6E7" stroke-width="2"/>
+<path d="M809 884 L816 890 L809 896 Z" fill="#75B6E7"/>
+<rect x="816" y="845" width="200" height="90" rx="8" fill="#0E2A3B" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="1"/>
+<text x="916" y="883" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle" letter-spacing="0" opacity="1">TheHive</text>
+<text x="916" y="907" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="middle" letter-spacing="0" opacity="1">Open a case</text>
+<line x1="1021" y1="890" x2="1061" y2="890" stroke="#75B6E7" stroke-width="2"/>
+<path d="M1061 884 L1068 890 L1061 896 Z" fill="#75B6E7"/>
+<rect x="1068" y="845" width="200" height="90" rx="8" fill="#0E2A3B" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="1"/>
+<text x="1168" y="883" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle" letter-spacing="0" opacity="1">Investigate</text>
+<text x="1168" y="907" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="middle" letter-spacing="0" opacity="1">Wireshark, Autopsy</text>
+<line x1="1273" y1="890" x2="1313" y2="890" stroke="#75B6E7" stroke-width="2"/>
+<path d="M1313 884 L1320 890 L1313 896 Z" fill="#75B6E7"/>
+<rect x="1320" y="845" width="200" height="90" rx="8" fill="#0E2A3B" stroke="#8B949E" stroke-width="1" stroke-dasharray="5 4" opacity="1"/>
+<text x="1420" y="883" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle" letter-spacing="0" opacity="1">Respond</text>
+<text x="1420" y="907" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#D2D2D2" font-weight="normal" text-anchor="middle" letter-spacing="0" opacity="1">Contain + document</text>
+<text x="800" y="975" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#75B6E7" font-weight="bold" text-anchor="middle" letter-spacing="0" opacity="1">12 applications built and working today  •  the rest are on the roadmap, each with its own Pending checklist</text>
+<text x="800.0" y="1046" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E" font-weight="normal" text-anchor="middle" letter-spacing="0" opacity="1">Product names are trademarks of their owners; logos intentionally not used.  •  github.com/SAM857SAM/SAM.LAB</text>
+</svg>
